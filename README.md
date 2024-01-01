@@ -1,3 +1,5 @@
+##Canlı link:
+https://basvuru-ticket-yonetim-sistemi.netlify.app/
 ## Başvuru Oluştur
 ![image](https://github.com/esraaakgull/finalCasePatika/assets/94448231/3147dd29-c0f1-4c01-9726-62c6318de717)
 ##Başvuru Sorgula
