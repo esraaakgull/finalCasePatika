@@ -6,7 +6,7 @@ npm start
 ## Bilgilendirme
 Projeye bazı sebeplerden dolayı vakit ayıramadım. 1 günde bu kadar yapabildim. Çok detaya giremedim ama genel olarak projede istenilen neredeyse her şey mevcuttur.
 ## Admin-Giriş Bilgileri
-username= kodluyoruz
+username= kodluyoruz ,
 password= bootcamp109
 ## Başvuru Oluştur
 ![image](https://github.com/esraaakgull/finalCasePatika/assets/94448231/3147dd29-c0f1-4c01-9726-62c6318de717)
