@@ -27,7 +27,7 @@ const Header = () => {
                     }
                 )}
                 {isAdmin &&
-                    <Link to='' onClick={handleLogout}>
+                    <Link to='' onClick={handleLogout} className='menu'>
                         Logout
                     </Link>
                 }

@@ -11,7 +11,7 @@ const AdminBasvuruListesi = () => {
 
     return (
         <div>
-            <h1>Admin - Yanıtlanmamış Başvuru Listesi</h1>
+            <h1>Yanıtlanmamış Başvuru Listesi</h1>
             {
                 filteredUserList.map((user, index) =>
                     <div key={index} className="basvuruContainer">
