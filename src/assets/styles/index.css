@@ -1,13 +1,137 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+input {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px lightgray;
+    border-color: black;
+}
+
+.gonder {
+    background-color: dodgerblue;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
+
+.gonder:hover {;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.basvuruForm {
+    margin-top: 50px;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 2px gray;
+    width: 290px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+span {
+    color: red;
+}
+
+.basarili-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.basvuru-kod {
+    color: cadetblue;
+}
+
+.kod, .ad {
+    color: blueviolet;
+}
+
+.sorgula {
+    margin: 10px;
+    background-color: cadetblue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 90px;
+    height: 35px;
+}
+
+.sorgula:hover {;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.basvuruContainer {
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 550px;
+}
+
+.basvuruyuGoster {
+    margin: 10px;
+    background-color: crimson;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 90px;
+    height: 100%;
+}
+
+.basvuruyuGoster:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    color: black
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu {
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+}
+
+.active {
+    color: black !important;
+    text-decoration: underline;
 }
