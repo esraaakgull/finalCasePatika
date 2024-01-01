@@ -21,8 +21,10 @@ const AdminLogin = () => {
         <div>
             <h1>Admin Login</h1>
             <div>
-                <input name="name" value={username} onChange={(e) => setUsername(e.target.value)}/>
-                <input type="password" name="password" value={password} onChange={(e) => setPassword(e.target.value)}/>
+                <input placeholder="Kullanıcı Adı" name="name" value={username}
+                       onChange={(e) => setUsername(e.target.value)}/>
+                <input placeholder="Şifre" type="password" name="password" value={password}
+                       onChange={(e) => setPassword(e.target.value)}/>
                 <div><span>{error}</span></div>
                 <button className="sorgula" onClick={handleLogin}>Giriş</button>
             </div>
